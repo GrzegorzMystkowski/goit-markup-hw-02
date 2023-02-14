@@ -1,8 +1,32 @@
 body{
     font-family:"Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #212121  ;
 }
 
-.webstudio {color: #2196F3; ;
+.blue{
+color: #2196F3;
+
 }
 
+.webstudio{
+    color:#000000;
+}
+.white{
+    color: #FFFFFF;
+}
 
+.text-color{
+    color: #757575;
+}
+
+a:hover {
+    color:#2196F3
+    
+ }
+a{
+    text-decoration: none;
+}
+.main-page{
+    background-color: #2F303A;
+}
