@@ -14,92 +14,104 @@
 
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#"
-                            ><span class="blue">Web</span
-                            ><span class="webstudio">Studio</span></a
-                        >
-                    </li>
-                    <li><a href="#">Agencja</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                </ul>
-            </nav>
-            <a href="mailto:info@devstudio.com"
-                ><span class="text-color"> info@devstudio.com </span></a
+            <div class="navigation-list">
+                <nav>
+                    <ul>
+                        <div class="webstudio">
+                            <li>
+                                <a href="./index.html">
+                                    <span class="web-color">Web</span
+                                    ><span class="studio">Studio</span></a
+                                >
+                            </li>
+                        </div>
+                        <li><a href="#">Agencja</a></li>
+                        <li><a href="portfolio.html"> Portfolio </a></li>
+                        <li><a href="#">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <a
+                class="contact-information-header"
+                href="mailto:info@devstudio.com"
             >
-            <a href="tel:+48111111111">
-                <span class="text-color">+48 111 111 111</span></a
+                info@devstudio.com
+            </a>
+            <a class="contact-information-header" href="tel:+48111111111">
+                +48 111 111 111</a
             >
         </header>
-        <div class="main-page">
-            <main>
-                <h1 class="white">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                <a href="/portfolio.html">portfolio</a>
-                <button type="button">Zamów usługe</button>
-                <ul>
-                    <li>
-                        <h5>LOREM IPSUM</h5>
-                        <p class="text-color">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nam vel arcu sem. Sed non sodales dui.
-                            Interdum et malesuada
-                        </p>
-                    </li>
-                    <li>
-                        <h5>LOREM IPSUM</h5>
-                        <p class="text-color">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nam vel arcu sem. Sed non sodales dui.
-                            Interdum et malesuada
-                        </p>
-                    </li>
-                    <li>
-                        <h5>LOREM IPSUM</h5>
-                        <p class="text-color">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nam vel arcu sem. Sed non sodales dui.
-                            Interdum et malesuada
-                        </p>
-                    </li>
-                    <li>
-                        <h5>LOREM IPSUM</h5>
-                        <p class="text-color">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nam vel arcu sem. Sed non sodales dui.
-                            Interdum et malesuada
-                        </p>
-                    </li>
-                </ul>
-                <h2>Czym się zajmujemy</h2>
-                <ul>
-                    <li>
-                        <img
-                            alt="man writing code"
-                            width="370"
-                            height="294"
-                            src="./images/img1.jpg"
-                        />
-                    </li>
-                    <li>
-                        <img
-                            alt="man creating a mobile application"
-                            width="370"
-                            height="294"
-                            src="./images/img2.jpg"
-                        />
-                    </li>
-                    <li>
-                        <img
-                            alt="man using graphic tablet"
-                            width="370"
-                            height="294"
-                            src="./images/img3.jpg"
-                        />
-                    </li>
-                </ul>
+
+        <main>
+            <div class="main-header">
+                <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+
+                <button class="order-the-service" type="button">
+                    Zamów usługe
+                </button>
+            </div>
+            <ul>
+                <li>
+                    <h5 class="header-paragraph">LOREM IPSUM</h5>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam vel arcu sem. Sed non sodales dui. Interdum et
+                        malesuada
+                    </p>
+                </li>
+                <li>
+                    <h5 class="header-paragraph">LOREM IPSUM</h5>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam vel arcu sem. Sed non sodales dui. Interdum et
+                        malesuada
+                    </p>
+                </li>
+                <li>
+                    <h5 class="header-paragraph">LOREM IPSUM</h5>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam vel arcu sem. Sed non sodales dui. Interdum et
+                        malesuada
+                    </p>
+                </li>
+                <li>
+                    <h5 class="header-paragraph">LOREM IPSUM</h5>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam vel arcu sem. Sed non sodales dui. Interdum et
+                        malesuada
+                    </p>
+                </li>
+            </ul>
+            <h2 class="header-secondary">Czym się zajmujemy</h2>
+            <ul>
+                <li>
+                    <img
+                        alt="man writing code"
+                        width="370"
+                        height="294"
+                        src="./images/img1.jpg"
+                    />
+                </li>
+                <li>
+                    <img
+                        alt="man creating a mobile application"
+                        width="370"
+                        height="294"
+                        src="./images/img2.jpg"
+                    />
+                </li>
+                <li>
+                    <img
+                        alt="man using graphic tablet"
+                        width="370"
+                        height="294"
+                        src="./images/img3.jpg"
+                    />
+                </li>
+            </ul>
+            <div class="our-team">
                 <h2>Nasz zespół</h2>
                 <ul>
                     <li>
@@ -110,8 +122,8 @@
                             src="./images/produktdesignerimg.jpg"
                         />
                         <header>
-                            <h5>John Doe</h5>
-                            <p class="text-color">Product Designer</p>
+                            <h5 class="names">John Doe</h5>
+                            <p class="team-description">Product Designer</p>
                         </header>
                     </li>
                     <li>
@@ -122,8 +134,8 @@
                             src="./images/frontenddeveloperimg.jpg"
                         />
                         <header>
-                            <h5>John Doe</h5>
-                            <p class="text-color">Frontend Developer</p>
+                            <h5 class="names">John Doe</h5>
+                            <p class="team-description">Frontend Developer</p>
                         </header>
                     </li>
                     <li>
@@ -134,8 +146,8 @@
                             src="./images/marketingimg.jpg"
                         />
                         <header>
-                            <h5>John Doe</h5>
-                            <p class="text-color">Marketing</p>
+                            <h5 class="names">John Doe</h5>
+                            <p class="team-description">Marketing</p>
                         </header>
                     </li>
                     <li>
@@ -146,20 +158,30 @@
                             src="./images/uidesignerimg.jpg"
                         />
                         <header>
-                            <h5>John Doe</h5>
-                            <p class="text-color">UI Designer</p>
+                            <h5 class="names">John Doe</h5>
+                            <p class="team-description">UI Designer</p>
                         </header>
                     </li>
                 </ul>
-            </main>
-        </div>
-        <footer>
+            </div>
+        </main>
+
+        <footer class="footer">
             <h4>
-                <span class="blue">Web</span><span class="white">Studio</span>
+                <div class="webstudio-footer">
+                    <span class="web-color">Web</span
+                    ><span class="studio-color">Studio</span>
+                </div>
             </h4>
-            <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+48111111111">+48 111 111 111</a>
+            <address class="address-style">
+                m. Warszawa, Aleje Jerozolimskie 21
+            </address>
+            <a class="contact-information" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+            >
+            <a class="contact-information" href="tel:+48111111111"
+                >+48 111 111 111</a
+            >
         </footer>
     </body>
 </html>
